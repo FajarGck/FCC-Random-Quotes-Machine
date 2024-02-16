@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+#quote-box {
+  max-width: 600px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  padding: 5px 10px;
+  margin: 10px 15px;
+}
+
+
+#text {
+  align-self: center;
+  font-size: 1.25rem;
+  padding: 0 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.author-box {
+  display: flex;
+  justify-content: end;
+}
+
+#author {
+  max-width: fit-content;
+  align-self: self-end;
+  padding: 0 10px 5px 10px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+#new-quote {
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.sosmed-group {
+  display: flex;
+  justify-content: space-between;
+  max-width: fit-content;
+  gap: 10px;
+  padding: 10px;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
